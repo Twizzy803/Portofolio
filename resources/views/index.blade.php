@@ -41,5 +41,12 @@
     </header>
   </section>
   {{-- Beranda --}}
+  <section>
+    <div class="flex flex-col items-center justify-center h-screen bg-gray-800 text-white">
+      <h2 class="text-4xl font-bold mb-4">Selamat Datang di Portofolio Saya</h2>
+      <p class="text-lg mb-8">Saya adalah seorang pengembang web yang bersemangat.</p>
+      <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Lihat Proyek Saya</a>
+    </div>
+  </section>
 </body>
 </html>
