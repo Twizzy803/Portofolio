@@ -23,17 +23,17 @@
         @endif
 
 </head>
-<body>
+<body class="bg-gray-900 font-[Poppins]">
   {{-- Header --}}
-  <section>
-    <header class="flex font-[Poppins] text-white bg-gray-950 p-5">
+  <section class="z-10 fixed w-full">
+    <header class="flex text-white bg-gray-700 p-5">
       <div class="flex flex-row ml-5 items-center justify-between w-full">
         <h1 class="text-5xl font-bold">Portofolio</h1>
         <div class="ml-10">
-          <ul class="flex flex-row text-xl space-x-5">
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang</a></li>
-            <li><a href="#">Proyek</a></li>
+          <ul class="flex flex-row text-xl space-x-10 mr-100 font-semibold">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#proyek">Proyek</a></li>
             <li><a href="#">Kontak</a></li>
           </ul>
         </div>
@@ -41,12 +41,38 @@
     </header>
   </section>
   {{-- Beranda --}}
-  <section>
-    <div class="flex flex-col items-center justify-center h-screen bg-gray-800 text-white">
-      <h2 class="text-4xl font-bold mb-4">Selamat Datang di Portofolio Saya</h2>
-      <p class="text-lg mb-8">Saya adalah seorang pengembang web yang bersemangat.</p>
-      <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Lihat Proyek Saya</a>
+  <section id="beranda">
+    <div class="flex flex-row w-full h-screen">
+      <div class="flex flex-col h-screen w-1/2 text-white justify-end items-end p-10">
+        <h2 class="text-4xl font-semibold mb-4">Selamat Datang di Portofolio ,<span class="text-yellow-300">Saya</span></h2>
+        <h1 class="text-5xl font-bold mb-4 bg-yellow-300 p-4 text-gray-900 rounded-lg">Agil Gilang CS</h1>
+        <p class="text-lg mb-4">Saya adalah seorang pengembang web dan mobile yang bersemangat.</p>
+        <a href="#proyek" class="bg-yellow-300 hover:bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded">Lihat Proyek Saya</a>
+      </div>
+      <div>
+        <img src="{{asset('images\img1.jpeg')}}" alt="cover" class="h-screen w-full object-cover">
+      </div>
     </div>
+  </section>
+  {{-- Tentang --}}
+  <section id="tentang">
+    <div>
+      <div class="flex flex-row items-center justify-center h-screen text-gray-900 bg-white space-x-20">
+        <div>
+          <img src="{{asset('images\img2.jpg')}}" alt="cover2" class="h-240 w-full object-cover rounded-lg">
+        </div>
+        <div class="flex flex-col items-center justify-center text-center">
+          <h2 class="text-4xl font-semibold mb-4">Tentang Saya</h2>
+          <p class="text-lg mb-4 max-w-2xl text-justify">Saya adalah seorang pengembang web dan mobile yang antusias dan memiliki semangat tinggi dalam menciptakan solusi digital. Dengan pengalaman dalam membangun aplikasi yang responsif dan memiliki kualitas yang bagus, saya terbiasa mengerjakan proyek yang berfokus pada tampilan yang menarik sekaligus fungsionalitas yang optimal, baik untuk platform web maupun mobile.</p>
+          <p class="text-lg mb-4 max-w-2xl text-justify">Saya juga terus berupaya mengembangkan kemampuan dengan mempelajari teknologi terbaru di dunia pemrograman. Bagi saya, dunia teknologi adalah ruang belajar tanpa henti, dan saya selalu terbuka untuk tantangan baru yang dapat meningkatkan keterampilan serta memberikan hasil kerja yang lebih baik ke depannya.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{-- Proyek --}}
+  <section id="proyek">
+    <div class="flex flex-col items-center justify-start h-screen text-gray-900 bg-white">
+      <h2 class="text-4xl font-semibold mb-4 mt-xl mt-25">Proyek Saya</h2> <hr text-yellow-300 class="w-1/4 mb-4 font-bold">
   </section>
 </body>
 </html>
