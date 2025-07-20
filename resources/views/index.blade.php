@@ -23,10 +23,10 @@
         @endif
 
 </head>
-<body class="bg-gray-900 font-[Poppins]">
+<body class="bg-primary font-[Poppins]">
   {{-- Header --}}
   <section class="z-10 fixed w-full">
-    <header class="flex text-white bg-gray-700 p-5">
+    <header class="flex text-white bg-secondary p-5">
       <div class="flex flex-row ml-5 items-center justify-between w-full">
         <h1 class="text-5xl font-bold">Portofolio</h1>
         <div class="ml-10">
@@ -44,10 +44,10 @@
   <section id="beranda">
     <div class="flex flex-row w-full h-screen">
       <div class="flex flex-col h-screen w-1/2 text-white justify-end items-end p-10">
-        <h2 class="text-4xl font-semibold mb-4">Selamat Datang di Portofolio ,<span class="text-yellow-300">Saya</span></h2>
-        <h1 class="text-5xl font-bold mb-4 bg-yellow-300 p-4 text-gray-900 rounded-lg">Agil Gilang CS</h1>
+        <h2 class="text-4xl font-semibold mb-4">Selamat Datang di Portofolio ,<span class="text-tertinary">Saya</span></h2>
+        <h1 class="text-5xl font-bold mb-4 bg-tertinary p-4 text-primary rounded-lg">Agil Gilang CS</h1>
         <p class="text-lg mb-4">Saya adalah seorang pengembang web dan mobile yang bersemangat.</p>
-        <a href="#proyek" class="bg-yellow-300 hover:bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded">Lihat Proyek Saya</a>
+        <a href="#proyek" class="bg-tertinary hover:bg-tertinary/60 text-primary font-bold py-2 px-4 rounded">Lihat Proyek Saya</a>
       </div>
       <div>
         <img src="{{asset('images\img1.jpeg')}}" alt="cover" class="h-screen w-full object-cover">
