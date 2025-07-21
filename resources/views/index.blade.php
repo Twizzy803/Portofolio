@@ -24,7 +24,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.jsx'])
 </head>
 
-<body class="bg-primary font-[Poppins]">
+<body class="font-[Poppins]">
     {{-- Header --}}
     <section class="z-10 fixed w-full">
         <header class="flex text-white bg-secondary p-5">
@@ -42,7 +42,7 @@
         </header>
     </section>
     {{-- Beranda --}}
-    <section id="beranda">
+    <section id="beranda" class="bg-primary">
         <div class="flex flex-row w-full h-screen">
             <div class="flex flex-col h-screen w-1/2 text-white justify-end items-end p-10">
                 <h2 class="text-4xl font-semibold mb-4">Selamat Datang di Portofolio ,<span
@@ -50,7 +50,8 @@
                 <h1 class="text-5xl font-bold mb-4 bg-tertinary p-4 text-primary rounded-lg">Agil Gilang CS</h1>
                 <p class="text-lg mb-4">Saya adalah seorang pengembang web dan mobile yang bersemangat.</p>
                 <a href="#proyek"
-                    class="bg-tertinary hover:bg-tertinary/50 text-primary font-bold py-2 px-4 rounded hover:text-white">Lihat Proyek
+                    class="bg-tertinary hover:bg-tertinary/50 text-primary font-bold py-2 px-4 rounded hover:text-white">Lihat
+                    Proyek
                     Saya</a>
             </div>
             <div>
@@ -82,10 +83,12 @@
         </div>
     </section>
     {{-- Proyek --}}
-    <section id="proyek">
+    <section id="proyek" class="bg-white py-20">
         <div class="flex flex-col items-center justify-start h-screen text-gray-900 bg-white">
             <h2 class="text-4xl font-semibold mb-4 mt-xl mt-25">Proyek Saya</h2>
             <hr class="w-1/4 mb-4 border-t-4 border-tertinary">
+            <div class="w-full" id="project-grid-container">
+            </div>
     </section>
 </body>
 
