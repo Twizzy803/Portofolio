@@ -44,26 +44,6 @@ const projects = [
         description:
             "Contrary to popular belief, Lorem Ipsum is not simply random text.",
     },
-    {
-        id: 7,
-        imageUrl:
-            "https://images.unsplash.com/photo-1534549222486-80549f39121a",
-        title: "Ferris Wheel",
-        description: "Amusement park structural analysis.",
-    },
-    {
-        id: 8,
-        imageUrl:
-            "https://images.unsplash.com/photo-1493246318656-5f34cf2168b0",
-        title: "Coastal View",
-        description: "Long exposure of a serene coastline.",
-    },
-    {
-        id: 9,
-        imageUrl: "https://images.unsplash.com/photo-1551701389-99a3a1435b8e",
-        title: "Misty Mountains",
-        description: "Clouds enveloping a mountain range.",
-    },
 ];
 
 function ProjectGrid() {

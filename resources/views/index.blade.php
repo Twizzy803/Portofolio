@@ -35,7 +35,7 @@
                         <li><a href="#beranda" id="nav-beranda" class="nav-link">Beranda</a></li>
                         <li><a href="#tentang" id="nav-tentang" class="nav-link">Tentang</a></li>
                         <li><a href="#proyek" id="nav-proyek" class="nav-link">Proyek</a></li>
-                        <li><a href="" id="nav-kontak" class="nav-link">Kontak</a></li>
+                        <li><a href="#kontak" id="nav-kontak" class="nav-link">Kontak</a></li>
                     </ul>
                 </div>
             </div>
@@ -85,10 +85,42 @@
     {{-- Proyek --}}
     <section id="proyek" class="bg-white py-20">
         <div class="flex flex-col items-center justify-start h-screen text-gray-900 bg-white">
-            <h2 class="text-4xl font-semibold mb-4 mt-xl mt-25">Proyek Saya</h2>
+            <h2 class="text-4xl font-semibold mb-4 mt-xl mt-25">Proyek</h2>
             <hr class="w-1/4 mb-4 border-t-4 border-tertinary">
             <div class="w-full" id="project-grid-container">
             </div>
+    </section>
+    {{-- Kontak --}}
+    <section id="kontak" class="bg-primary py-20 ">
+        <footer>
+            <div class="flex flex-col items-center justify-start h-screen text-white">
+                <h2 class="text-9xl font-semibold mb-4 mt-50 text-primary text-shadow-lg text-shadow-tertinary">Kon<span
+                        class="bg-tertinary px-5 rounded-lg">tak</span></h2>
+                <hr class="w-1/3 mb-4 border-t-4 border-tertinary">
+                <div class="grid grid-cols-2 gap-4 items-center mt-10 text-xl space-x-10 place-content-around">
+                    <button onclick="window.open('https://wa.me/6287861801695', '_black')"
+                        class="bg-primary text-secondary font-bold py-4 px-4 rounded-full hover:text-white hover:bg-secondary shadow-lg shadow-secondary hover:shadow-none w-100">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Whatsapp
+                    </button>
+                    <button
+                        class="bg-primary text-secondary font-bold py-4 px-4 rounded-full hover:text-white hover:bg-secondary shadow-lg shadow-secondary hover:shadow-none w-100">
+                        <i class="fa-regular fa-envelope"></i>
+                        Email
+                    </button>
+                    <button onclick="window.open('https://github.com/Twizzy803', '_black')"
+                        class="bg-primary text-secondary font-bold py-4 px-4 rounded-full hover:text-white hover:bg-secondary shadow-lg shadow-secondary hover:shadow-none w-100">
+                        <i class="fa-brands fa-github"></i>
+                        Github
+                    </button>
+                    <button onclick="window.open('https://www.linkedin.com/in/agilgilangcs/', '_black')"
+                        class="bg-primary text-secondary font-bold py-4 px-4 rounded-full hover:text-white hover:bg-secondary shadow-lg shadow-secondary hover:shadow-none w-100">
+                        <i class="fa-brands fa-linkedin"></i>
+                        LinkedIn
+                    </button>
+                </div>
+            </div>
+        </footer>
     </section>
 </body>
 
