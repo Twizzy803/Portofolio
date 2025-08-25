@@ -5,15 +5,15 @@ import ProjectCard from "./ProjectCard";
 const projects = [
     {
         id: 1,
-        imageUrl: "https://images.unsplash.com/photo-1554995207-c18c203602cb",
-        title: "Interior Design",
-        description: "Modern and minimalist living room.",
+        imageUrl: "images/afterguilty.png",
+        title: "After Guilty",
+        description: "Website brand local clothing",
     },
     {
         id: 2,
-        imageUrl: "https://images.unsplash.com/photo-1542359649-31e03cdde4fe",
-        title: "Architecture",
-        description: "Symmetric building facade design.",
+        imageUrl: "images/blackwooden.png",
+        title: "Black Wooden",
+        description: "Mobile App furniture store",
     },
     {
         id: 3,

@@ -121,6 +121,9 @@
                 </div>
             </div>
         </footer>
+        <div class="mt-10 text-center text-white">
+            <p class="text-lg">Author: <span class="font-bold">Twizzy</span></p>
+        </div>
     </section>
 </body>
 
